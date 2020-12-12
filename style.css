@@ -29,10 +29,6 @@ body {
   color: #3c4043;
   text-align: end;
 }
-.header__nav--icon {
-
-
-}
 .header__nav--button {
   margin-right: 25px;
 }
@@ -56,9 +52,6 @@ body {
   display: flex;
   justify-content: center;
   align-items: flex-start;
-  }
-.main__box--logo a {
-
 }
 .box__logo--google img {
   width: 40vmin;
@@ -91,9 +84,6 @@ body {
 }
 .search-bar:hover {
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.164);
-}
-.search-bar__logo {
-
 }
 .search-bar__logo label>img {
   width: 15px;

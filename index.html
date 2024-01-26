@@ -1,45 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Google</title>
-
     <link rel="shortcut icon" href="/fotos/google_search_new_logo_icon_159150.ico" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="stylefonts.css">
-    
-</head>
-<body>
-    <header>
-        <div class="header__nav">
-            <a class="header__nav--letters" href="https://mail.google.com">Gmail</a>
-            <a class="header__nav--letters" href="https://www.google.com.pe/imghp?hl=es-419&tab=wi&ogbl">Imágenes</a>
-            <a class="header__nav--icon" href="">
-                <svg class="" height="23" width="23" focusable="false" viewBox="0 0 24 24">
-                    <path d="M6,8c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM12,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM6,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM6,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM12,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM16,6c0,1.1 0.9,2 2,2s2,-0.9 2,-2 -0.9,-2 -2,-2 -2,0.9 -2,2zM12,8c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM18,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM18,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2z"></path>
-                </svg>
-            </a>
-            <!-- NOTA: Agregar barra de apps de google en este espacio. -->
-            <a class="header__nav--button" href="https://accounts.google.com/signin/v2/identifier?hl=es-419&passive=true&continue=https%3A%2F%2Fwww.google.com%2F&ec=GAZAAQ&flowName=GlifWebSignIn&flowEntry=ServiceLogin"><input type="button" value="Iniciar Sesión"></a>
-        </div>
-    </header>
-    <main>
-        <!-- Google icon and share-->
-        <divc class="">
-            <div class="main__box--logo">
-                <a class="box__logo--google" href="https://www.google.com/search?q=Felices+fiestas+2020&oi=ddle&ct=173710363&hl=es-419&sa=X&ved=0ahUKEwiR1bPR27ntAhWwuVkKHeO5Cs4QPQgN"><img  src="fotos/logo-google.png" alt=""></a>
-                <a class="box__logo--share" href="https://www.google.com/#ddle=1"><img  src="fotos/share.svg" alt=""></a>
-            </div>
-        </divc>
 
+</head>
+
+<body>
+    <header class="header">
+        <nav class="header__nav">
+            <div>
+                <a class="header__nav--letters" href="https://mail.google.com">Gmail</a>
+                <a class="header__nav--letters"
+                    href="https://www.google.com.pe/imghp?hl=es-419&tab=wi&ogbl">Imágenes</a>
+            </div>
+            <div>
+                <a class="header__nav--icon" href="">
+                    <svg class="icon-grid" height="23" width="23" focusable="false" viewBox="0 0 24 24">
+                        <path
+                            d="M6,8c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM12,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM6,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM6,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM12,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM16,6c0,1.1 0.9,2 2,2s2,-0.9 2,-2 -0.9,-2 -2,-2 -2,0.9 -2,2zM12,8c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM18,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM18,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2z">
+                        </path>
+                    </svg>
+                </a>
+                <!-- NOTA: Agregar barra de apps de google en este espacio. -->
+                <a class="header__nav--button"
+                    href="https://accounts.google.com/signin/v2/identifier?hl=es-419&passive=true&continue=https%3A%2F%2Fwww.google.com%2F&ec=GAZAAQ&flowName=GlifWebSignIn&flowEntry=ServiceLogin">
+                    Acceder
+                </a>
+            </div>
+        </nav>
+    </header>
+    <main class="main-box">
+        <!-- Google icon and share-->
+        <div class="main__box--logo">
+            <a class="box__logo--google"
+                href="https://www.google.com/search?q=Felices+fiestas+2020&oi=ddle&ct=173710363&hl=es-419&sa=X&ved=0ahUKEwiR1bPR27ntAhWwuVkKHeO5Cs4QPQgN"
+            >
+                <picture>
+                    <source 
+                        srcset="https://www.google.com/images/branding/googlelogo/1x/googlelogo_light_color_272x92dp.png" 
+                        media="(prefers-color-scheme: dark)"
+                        alt="Google"
+                    />
+                    <img
+                        src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_dark_color_272x92dp.png" 
+                        alt="Google"
+                        width="272"
+                    />
+                </picture>
+            </a>
+        </div>
 
         <!--Google search bar-->
         <div class="main__box--search">
             <div class="search-bar">
-                <div class="search-bar__logo"><label for="search"><img src="fotos/lupa.svg" alt=""></label></div>
+                <div class="search-bar__logo">
+                    <label for="search">
+                        <img src="fotos/lupa.svg" alt="" />
+                    </label>
+                </div>
                 <input class="search-bar__input" type="text" id="search" placeholder="">
-                <div class="search-bar__mic"><a href=""><svg class="HPVvwb" width="20" height="20" focusable="false" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="m12 15c1.66 0 3-1.31 3-2.97v-7.02c0-1.66-1.34-3.01-3-3.01s-3 1.34-3 3.01v7.02c0 1.66 1.34 2.97 3 2.97z" fill="#4285f4"></path><path d="m11 18.08h2v3.92h-2z" fill="#34a853"></path><path d="m7.05 16.87c-1.27-1.33-2.05-2.83-2.05-4.87h2c0 1.45 0.56 2.42 1.47 3.38v0.32l-1.15 1.18z" fill="#f4b400"></path><path d="m12 16.93a4.97 5.25 0 0 1 -3.54 -1.55l-1.41 1.49c1.26 1.34 3.02 2.13 4.95 2.13 3.87 0 6.99-2.92 6.99-7h-1.99c0 2.92-2.24 4.93-5 4.93z" fill="#ea4335"></path></svg></a></div>
+                <div class="search-bar__mic">
+                    <a href="">
+                        <svg class="HPVvwb" width="25" height="25" focusable="false"
+                            viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="m12 15c1.66 0 3-1.31 3-2.97v-7.02c0-1.66-1.34-3.01-3-3.01s-3 1.34-3 3.01v7.02c0 1.66 1.34 2.97 3 2.97z"
+                                fill="#4285f4"></path>
+                            <path d="m11 18.08h2v3.92h-2z" fill="#34a853"></path>
+                            <path
+                                d="m7.05 16.87c-1.27-1.33-2.05-2.83-2.05-4.87h2c0 1.45 0.56 2.42 1.47 3.38v0.32l-1.15 1.18z"
+                                fill="#f4b400"></path>
+                            <path
+                                d="m12 16.93a4.97 5.25 0 0 1 -3.54 -1.55l-1.41 1.49c1.26 1.34 3.02 2.13 4.95 2.13 3.87 0 6.99-2.92 6.99-7h-1.99c0 2.92-2.24 4.93-5 4.93z"
+                                fill="#ea4335"></path>
+                        </svg>
+                    </a>
+                </div>
             </div>
         </div>
 
@@ -48,7 +90,7 @@
         <div class="main__box--buttons">
             <div class="main__buttons">
                 <a class="buttons__google" href="#">Buscar con Google</a>
-                <a class="buttons__suerte" href="https://www.google.com/doodles/">Me siento con suerte</a>
+                <a class="buttons__suerte" href="#">Voy a tener suerte</a>
             </div>
             <p class="buttons__languaje">Ofrecido por Google en: <a href="#">English</a> <a href="#">Quechua</a></p>
         </div>
@@ -59,17 +101,22 @@
         </div>
         <div class="footer__nav">
             <div class="footer__nav--box-left">
-                <a class="footer__nav--left" href="https://ads.google.com/intl/es-419_pe/home/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1">Publicidad</a>
-                <a class="footer__nav--left" href="https://smallbusiness.withgoogle.com/intl/es-419_pe/help/#!/">Negocios</a>
-                <a class="footer__nav--left" href="https://about.google/?utm_source=google-PE&utm_medium=referral&utm_campaign=hp-footer&fg=1">Sobre Google</a>
-                <a class="footer__nav--left" href="https://www.google.com/search/howsearchworks/?fg=1">Cómo funciona la Búsqueda</a>
+                <a class="footer__nav--left"
+                    href="https://ads.google.com/intl/es-419_pe/home/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1">Sobre Google</a>
+                    <a class="footer__nav--left"
+                        href="https://about.google/?utm_source=google-PE&utm_medium=referral&utm_campaign=hp-footer&fg=1">Publicidad</a>
+                <a class="footer__nav--left"
+                    href="https://smallbusiness.withgoogle.com/intl/es-419_pe/help/#!/">Negocios</a>
+                <a class="footer__nav--left" href="https://www.google.com/search/howsearchworks/?fg=1">Cómo funciona la
+                    Búsqueda</a>
             </div>
             <div class="footer__nav--box-right">
-                <a class="footer__nav--right" href="https://policies.google.com/privacy?hl=es-419&fg=1">Privacidad</a>
-                <a class="footer__nav--right" href="https://policies.google.com/terms?hl=es-419&fg=1">Condiciones</a>
+                <a class="footer__nav--right" href="#">Privacidad</a>
+                <a class="footer__nav--right" href="#">Condiciones</a>
                 <a class="footer__nav--right" href="#">Preferencias</a>
             </div>
         </div>
     </footer>
 </body>
+
 </html>
